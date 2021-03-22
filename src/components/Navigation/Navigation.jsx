@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from "prop-types";
 import styled from "@emotion/styled";
 import { rgba } from 'polished';
 
@@ -93,6 +94,10 @@ const Navigation = ({children}) => {
         </div>
     </StyledNav>
     )
+};
+
+Navigation.propTypes = {
+  children: PropTypes.node,
 };
 
 export default Navigation;

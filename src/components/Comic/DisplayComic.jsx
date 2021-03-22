@@ -4,6 +4,7 @@ import { connect } from "react-redux";
 import { fetchComic, comicInitState } from "../../actions/Actions";
 import Comic from "./Comic";
 import Search from "../Search/Search";
+import PropTypes from "prop-types";
 
 const DisplayComic = (props) => {
   const onSubmit = (event) => {
@@ -27,6 +28,10 @@ const DisplayComic = (props) => {
       <Comic />
     </section>
   );
+};
+
+DisplayComic.propTypes = {
+  dispatch: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = (dispatch) => ({ dispatch });

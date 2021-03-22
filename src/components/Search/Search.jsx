@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import styled from "@emotion/styled";
 import { lighten, darken } from "polished";
 
@@ -80,6 +81,14 @@ const Search = ({ onSubmit }) => {
       </div>
     </StyledSearch>
   );
+};
+
+Search.propTypes = {
+  onSubmit: PropTypes.func,
+};
+
+Search.defaultProps = {
+  onSubmit: null,
 };
 
 export default Search;
