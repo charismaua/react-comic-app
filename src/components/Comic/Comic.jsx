@@ -20,6 +20,7 @@ const StyledComic = styled.div`
     position: relative;
     z-index: 1;
     text-decoration: none;
+    margin: 0 15px;
     max-width: min(400px, 100%);
 
     &:before {

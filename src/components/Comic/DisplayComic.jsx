@@ -23,10 +23,10 @@ const DisplayComic = (props) => {
   }, []);
 
   return (
-    <section id="findComic">
+    <>
       <Search onSubmit={onSubmit} />
       <Comic />
-    </section>
+    </>
   );
 };
 
