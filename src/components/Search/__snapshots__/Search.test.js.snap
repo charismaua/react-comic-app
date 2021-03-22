@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search should render component with proper width 1`] = `
+<div>
+  <div
+    class="css-bf2dn0"
+    data-testid="Search"
+  >
+    <div
+      class="search__wrapper"
+    >
+      <form
+        class="search__form"
+      >
+        <input
+          class="search__form-element search__input"
+          placeholder="Type the comic's number here..."
+          type="number"
+        />
+        <button
+          class="search__form-element search__button"
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Search should render component without throwing an error 1`] = `
+<div>
+  <div
+    class="css-bf2dn0"
+    data-testid="Search"
+  >
+    <div
+      class="search__wrapper"
+    >
+      <form
+        class="search__form"
+      >
+        <input
+          class="search__form-element search__input"
+          placeholder="Type the comic's number here..."
+          type="number"
+        />
+        <button
+          class="search__form-element search__button"
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;
